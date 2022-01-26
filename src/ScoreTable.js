@@ -10,7 +10,7 @@ import { styled } from '@material-ui/styles';
 
 const CustomButton = styled(Fab)({
   padding: '5px',
-  margin: '5px'
+  margin: '4px'
 });
 
 const CustomEntryForm = styled(Paper)({
@@ -104,7 +104,7 @@ export default class ScoreTable extends React.Component {
                             height: 30,
                         },
                         btn: {
-                            display: 'none'
+                            display: 'ruby-base'
                         }
                     }}
                     />
